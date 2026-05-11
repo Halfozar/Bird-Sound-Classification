@@ -23,3 +23,7 @@ This project classifies bird sounds using classical machine learning and audio s
 
 ```bash
 pip install -r requirements.txt
+
+
+streamlit app
+https://bird-sound-classification-mqczgejumcx4e5u7sxb5jt.streamlit.app/
