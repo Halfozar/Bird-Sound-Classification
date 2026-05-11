@@ -23,8 +23,12 @@ st.write("Record or upload bird audio to identify bird species.")
 # LOAD MODEL
 # ============================================
 
-MODEL_PATH = "model/bird_svm_model.pkl"
-SCALER_PATH = "model/scaler.pkl"
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODEL_PATH = os.path.join(BASE_DIR, "model", "bird_svm_model.pkl")
+SCALER_PATH = os.path.join(BASE_DIR, "model", "scaler.pkl")
 
 model = joblib.load(MODEL_PATH)
 scaler = joblib.load(SCALER_PATH)
