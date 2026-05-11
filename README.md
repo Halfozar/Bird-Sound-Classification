@@ -19,10 +19,7 @@ This project classifies bird sounds using classical machine learning and audio s
 - Kingfisher
 - Noise
 
-## Installation
 
-```bash
-pip install -r requirements.txt
 
 
 streamlit app
