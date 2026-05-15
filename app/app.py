@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 st.title("🐦 Bird Sound Classification")
-st.write("Record or upload bird audio to identify bird species.")
+st.write("Upload bird audio to identify bird species.")
 
 # ============================================
 # LOAD MODEL
@@ -60,23 +60,7 @@ def predict_bird(audio_path):
 
     return prediction
 
-# ============================================
-# RECORDING PREDICTION
-# ============================================
 
-if audio_file is not None:
-
-    st.audio(audio_file)
-
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
-
-        tmp.write(audio_file.read())
-
-        temp_audio_path = tmp.name
-
-    prediction = predict_bird(temp_audio_path)
-
-    st.success(f"Predicted Bird: {prediction}")
 
 # ============================================
 # FILE UPLOAD PREDICTION
