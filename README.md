@@ -1,4 +1,4 @@
-# Bird Sound Classification: Crow vs. Other Birds Using MFCC and SVM 
+# Bird Sound Classification: Crow vs. Other Birds Using MFCC and SVM readme
 
 This project focuses on the classification of bird vocalizations (Crow, Cuckoo, Kingfisher, Bluejay, and Background Noise) using classical Machine Learning techniques. By extracting acoustic features like MFCCs and training a Support Vector Machine (SVM), the model can identify species from short audio clips.
 
