@@ -33,13 +33,7 @@ SCALER_PATH = os.path.join(BASE_DIR, "model", "scaler.pkl")
 model = joblib.load(MODEL_PATH)
 scaler = joblib.load(SCALER_PATH)
 
-# ============================================
-# AUDIO RECORDING
-# ============================================
 
-st.subheader("🎤 Record Bird Sound")
-
-audio_file = st.audio_input("Record Audio")
 
 # ============================================
 # FILE UPLOAD
