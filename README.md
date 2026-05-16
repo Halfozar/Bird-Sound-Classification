@@ -25,6 +25,9 @@ Manual identification of bird species in the wild is labor-intensive and require
 *   **Aggregation:** Mean, Standard Deviation, Minimum, and Maximum calculated for each feature.
 
 ## ⚙️ Methodology (Data Science Life Cycle)
+## 🔧 Pipeline Diagram
+
+![Pipeline Diagram](bird_sound_pipeline_diagram.svg)
 1.  **Problem Definition:** Defined the scope of bird species and acoustic boundaries.
 2.  **Data Collection:** Gathered `.wav` and `.mp3` files across 5 categories.
 3.  **Preprocessing:** Audio loaded at 22,050Hz, normalized, and trimmed/padded to 5 seconds.
