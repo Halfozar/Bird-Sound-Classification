@@ -53,6 +53,9 @@ The **SVM Classifier** outperformed other models:
 ## 🚀 Deployment
 The application is live on Streamlit Community Cloud.
 *   **Live Link:** https://bird-sound-classification-mqczgejumcx4e5u7sxb5jt.streamlit.app/
+## 📸 App Screenshot
+
+![Bird Sound Classifier](bird.png)
 
 ### App Features:
 *   **Audio Upload:** Supports .wav and .mp3.
